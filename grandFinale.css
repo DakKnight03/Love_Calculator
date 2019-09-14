@@ -7,8 +7,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background: #C6FFDD;  
-    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  
-    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+    background: -webkit-linear-gradient(to right, #f7797d, rgb(126, 169, 218), rgb(230, 169, 226)); 
+  background: linear-gradient(to right, #f7797d, rgb(59, 130, 212), rgb(204, 111, 198)); 
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Personality Test</title>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="loveCal.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="landing">
+        <div class="title">
+            <h1>Love Calculator</h1>
+            <h2>Personality Test</h2>
+            <h1 class="red">PLEASE READ THE ANSWERS CAREFULLY</h1>
+            <H2 class="red">you can only choose once. Just like life.</H2>
+        </div>
+
+        <div id="form">
+            <form action="" id="container1">
+                
+                <ol id="check">
+
+                    <li>Do you often share your secrets with your partner?</li>
+                    <div>
+
+                        <button class="button" att="bad">No, I mostly keep my secrets to myself .</button><br>
+                        <button class="button" att="good">Yes, I usually share them with him/her.</button><br>
+                        <button class="button bottom" att="avg">Sometimes I do, sometimes I keep it to myself only.</button><br>
+
+                    </div>
+
+                    <li>Are you the one who start the conversation (throught text, like messaging)?</li>
+                    <div>
+
+                        <button class="button" att="avg">Sometimes.</button><br>
+                        <button class="button" att="good">Yes</button>.</button><br>
+                        <button class="button bottom" att="bad">I usually wait for my partner to start the conversation first.</button><br>
+
+                    </div>
+
+                    <li>Do you feel tired of talking to your partner after a long period ?</li>
+                    <div>
+
+                        <button class="button" att="bad">Yeah, but after a few minutes I wanted to talk again.</button><br>
+                        <button class="button" att="good">We talk till we drop. Talking to him/her always gives me more energy.</button><br>
+                        <button class="button bottom" att="avg">Not very often. Sometimes when I'm tired I cannot talk for too long.</button><br>
+
+                    </div>
+
+                    <li>Do you miss him/her when he/she is not around?</li>
+                    <div>
+                        
+                        <button class="button" att="bad">I tends to forget about her until she came back.</button><br>
+                        <button class="button" att="avg">I pull through just fine, but sometimes I DO kind of miss her actually.</button><br>
+                        <button class="button bottom" att="good">I am miserable when she is away.</button><br>
+                        
+                    </div>
+                    
+                    <li>Do you feel like you always have to show your partner your good side because you don't want him/her to know your bad side?</li>
+                    <div>
+                        
+                        <button class="button" att="bad">Always.</button><br>
+                        <button class="button" att="avg">Sometimes I still hide some of my bad traits.</button><br>
+                        <button class="button bottom" att="good">Why should I do that?</button><br>
+                        
+                    </div>
+
+                </ol>
+    
+            </form>
+            
+        </div>   
+        
+    </div>
+
+    <div  id="loading" class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+
+    <div id="button">
+        <button type="submit" id="finish">
+            <a>SUBMIT</a>
+        </button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Love Cal</title>
+    <link rel="stylesheet" href="loveCal.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+</head>
+<body>
+    <div class="landing">
+        <div class="title">
+            <h1>Love Cal</h1>
+            <h2>Basic Info</h2>
+        </div>
+        <div id="form">
+            <form action="" id="container">
+                
+                <h3>What is your name?</h3>
+                <input  name="name1"  type="text" id="name1" class="name">
+                <br>
+                <h3>What is your partner's name?</h3>
+                <input name="name2"  type="text" id="name2" class="name">
+                <br>
+                <h3>What is the age difference?</h3>
+                <input name="age"  type="number" id="age" class="name">
+                <br>
+                <br>
+                <br>
+                <div  id="loading" class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+
+                <br>
+                <div id="button">
+                    <button type="submit" id="submit">
+                        <a>SUBMIT</a>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+
+</html>

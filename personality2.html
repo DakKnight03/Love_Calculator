@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Personality Test</title>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="loveCal.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="landing">
+        <div class="title">
+            <h1>Love Calculator</h1>
+            <h2>Personality Test (Partner version)</h2>
+            <H2 class="red">You can only choose once.</H2>
+            <h2 class="red">Please provide the most truthful answer.</h2>
+        </div>
+
+        <div id="form">
+            <form action="" id="container1">
+                
+                <ol id="check">
+
+                    <li>Does your partner get mad when you didn't give him/her enough attention?</li>
+                    <div>
+
+                        <button class="button" att="avg">Sometimes.</button><br>
+                        <button class="button" att="good">Yes.</button><br>
+                        <button class="button bottom" att="bad">No, he/she doesn't really mind.</button><br>
+
+                    </div>
+
+                    <li>Is your partner an introvert or an extrovert?</li>
+                    <div>
+
+                        <button class="button" att="avg">Kinda in between.</button><br>
+                        <button class="button" att="good">Extrovert.</button>.</button><br>
+                        <button class="button bottom" att="bad">Introvert.</button><br>
+
+                    </div>
+
+                    <li>Does he/she often tease you?</li>
+                    <div>
+
+                        <button class="button" att="good">She's a master teaser.</button><br>
+                        <button class="button" att="">Heck yeah.</button><br>
+                        <button class="button bottom" att="avg">Well, maybe yes?</button><br>
+
+                    </div>
+
+                    <li>What makes your partner happy?</li>
+                    <div>
+
+                        <button class="button" att="bad">I don't know. Does it matter?</button><br>
+                        <button class="button" att="good">Me and my constant attention.</button><br>
+                        <button class="button bottom" att="avg">Materialistic things.</button><br>
+
+                    </div>
+
+                    <li>What do you think your partner likes about you?</li>
+                    <div>
+
+                        <button class="button" att="good">True love.</button><br>
+                        <button class="button" att="bad">My huge package.</button><br>
+                        <button class="button" att="avg">Good looking.</button><br>
+                        <button class="button bottom" att="bad">Dem money.<button>
+                    </div>
+
+                </ol>
+    
+            </form>
+            
+        </div>   
+        
+    </div>
+
+    <div  id="loading" class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+
+    <div id="button">
+        <button type="submit" id="finish">
+            <a>SUBMIT</a>
+        </button>
+    </div>
+
+    <script src="personality2.js"></script>
+</body>
+
+</html>

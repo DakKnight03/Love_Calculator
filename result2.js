@@ -20,8 +20,9 @@ if (String(result) == "bad" && String(result) == String(result2)) {
     
 } else if (String(result) != String(result2)) {
     conclusion.textContent = "From what it seems, you two are two opposite people in terms of personality. In spite of your differences, you two make great romantic partners. Perhaps it's a case of opposites attracting -- what one partner lacks, the other more than makes up for. They balance each other out.";
+} else {
+    conclusion.textContent = "From what it seems, you two are two opposite people in terms of personality. In spite of your differences, you two make great romantic partners. Perhaps it's a case of opposites attracting -- what one partner lacks, the other more than makes up for. They balance each other out.";
 }
-
 let retake = document.getElementById("retake");
 retake.addEventListener("click", function(e) {
     sessionStorage.clear();
